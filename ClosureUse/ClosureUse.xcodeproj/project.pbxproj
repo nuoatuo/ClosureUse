@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7432F1731DAB4004009A7CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432F1721DAB4004009A7CAD /* AppDelegate.swift */; };
+		7432F1751DAB4004009A7CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432F1741DAB4004009A7CAD /* ViewController.swift */; };
+		7432F1781DAB4005009A7CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7432F1761DAB4005009A7CAD /* Main.storyboard */; };
+		7432F17A1DAB4005009A7CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7432F1791DAB4005009A7CAD /* Assets.xcassets */; };
+		7432F17D1DAB4005009A7CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7432F17B1DAB4005009A7CAD /* LaunchScreen.storyboard */; };
+		7432F1851DAB4355009A7CAD /* HttpTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432F1841DAB4355009A7CAD /* HttpTools.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7432F16F1DAB4004009A7CAD /* ClosureUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosureUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7432F1721DAB4004009A7CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7432F1741DAB4004009A7CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7432F1771DAB4005009A7CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7432F1791DAB4005009A7CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7432F17C1DAB4005009A7CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7432F17E1DAB4005009A7CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7432F1841DAB4355009A7CAD /* HttpTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpTools.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7432F16C1DAB4004009A7CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7432F1661DAB4004009A7CAD = {
+			isa = PBXGroup;
+			children = (
+				7432F1711DAB4004009A7CAD /* ClosureUse */,
+				7432F1701DAB4004009A7CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7432F1701DAB4004009A7CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7432F16F1DAB4004009A7CAD /* ClosureUse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7432F1711DAB4004009A7CAD /* ClosureUse */ = {
+			isa = PBXGroup;
+			children = (
+				7432F1721DAB4004009A7CAD /* AppDelegate.swift */,
+				7432F1741DAB4004009A7CAD /* ViewController.swift */,
+				7432F1761DAB4005009A7CAD /* Main.storyboard */,
+				7432F1791DAB4005009A7CAD /* Assets.xcassets */,
+				7432F17B1DAB4005009A7CAD /* LaunchScreen.storyboard */,
+				7432F17E1DAB4005009A7CAD /* Info.plist */,
+				7432F1841DAB4355009A7CAD /* HttpTools.swift */,
+			);
+			path = ClosureUse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7432F16E1DAB4004009A7CAD /* ClosureUse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7432F1811DAB4005009A7CAD /* Build configuration list for PBXNativeTarget "ClosureUse" */;
+			buildPhases = (
+				7432F16B1DAB4004009A7CAD /* Sources */,
+				7432F16C1DAB4004009A7CAD /* Frameworks */,
+				7432F16D1DAB4004009A7CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClosureUse;
+			productName = ClosureUse;
+			productReference = 7432F16F1DAB4004009A7CAD /* ClosureUse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7432F1671DAB4004009A7CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "夜风易冷";
+				TargetAttributes = {
+					7432F16E1DAB4004009A7CAD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NEDBZL7MPY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7432F16A1DAB4004009A7CAD /* Build configuration list for PBXProject "ClosureUse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7432F1661DAB4004009A7CAD;
+			productRefGroup = 7432F1701DAB4004009A7CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7432F16E1DAB4004009A7CAD /* ClosureUse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7432F16D1DAB4004009A7CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7432F17D1DAB4005009A7CAD /* LaunchScreen.storyboard in Resources */,
+				7432F17A1DAB4005009A7CAD /* Assets.xcassets in Resources */,
+				7432F1781DAB4005009A7CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7432F16B1DAB4004009A7CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7432F1851DAB4355009A7CAD /* HttpTools.swift in Sources */,
+				7432F1751DAB4004009A7CAD /* ViewController.swift in Sources */,
+				7432F1731DAB4004009A7CAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7432F1761DAB4005009A7CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7432F1771DAB4005009A7CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7432F17B1DAB4005009A7CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7432F17C1DAB4005009A7CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7432F17F1DAB4005009A7CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7432F1801DAB4005009A7CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7432F1821DAB4005009A7CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NEDBZL7MPY;
+				INFOPLIST_FILE = ClosureUse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caissa.ClosureUse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7432F1831DAB4005009A7CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NEDBZL7MPY;
+				INFOPLIST_FILE = ClosureUse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caissa.ClosureUse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7432F16A1DAB4004009A7CAD /* Build configuration list for PBXProject "ClosureUse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7432F17F1DAB4005009A7CAD /* Debug */,
+				7432F1801DAB4005009A7CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7432F1811DAB4005009A7CAD /* Build configuration list for PBXNativeTarget "ClosureUse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7432F1821DAB4005009A7CAD /* Debug */,
+				7432F1831DAB4005009A7CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7432F1671DAB4004009A7CAD /* Project object */;
+}
